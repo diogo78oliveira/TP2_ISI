@@ -1,6 +1,8 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using GestaoHotelariaAPI.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace GestaoHotelariaAPI
 {
@@ -10,11 +12,31 @@ namespace GestaoHotelariaAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Carregar a string de conexão
+            // Configurar a string de conexão com o banco
             builder.Services.AddDbContext<GestaoHotelariaContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("GestaoHotelariaContext")));
 
-            // Outros serviços
+            // Configuração de autenticação JWT
+            var key = Encoding.ASCII.GetBytes("pppppp0000"); // Substitua por uma chave forte
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
+            // Adicionar controladores e Swagger
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -28,7 +50,11 @@ namespace GestaoHotelariaAPI
             }
 
             app.UseHttpsRedirection();
+
+            // Adicionar autenticação e autorização
+            app.UseAuthentication();
             app.UseAuthorization();
+
             app.MapControllers();
 
             app.Run();

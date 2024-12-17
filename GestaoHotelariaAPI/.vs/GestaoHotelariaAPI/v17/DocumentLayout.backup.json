@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\service\\utilizadorservice\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\service\\utilizadorservice\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\service\\utilizadorservice\\iutilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\service\\utilizadorservice\\iutilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\models\\gestaohotelariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\models\\gestaohotelariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\models\\historico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\models\\historico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\gestaohotelariaapi\\gestaohotelariaapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CFD281-0F4F-4E7E-A0F2-DB8F7C0745FC}|GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj|solutionrelative:gestaohotelariaapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +46,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReservasController.cs",
-              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
-              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
-              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
-              "RelativeToolTip": "GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAA0wFgAAAAFAAAAAAAAAA==",
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Models\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\ServiceResponse.cs",
+              "RelativeToolTip": "GestaoHotelariaAPI\\Models\\ServiceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T15:09:48.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\appsettings.json",
-              "RelativeToolTip": "GestaoHotelariaAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-14T19:26:08.635Z",
+              "WhenOpened": "2024-12-17T11:50:41.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UtilizadoresController.cs",
-              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
-              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
-              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
-              "RelativeToolTip": "GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Service\\UtilizadorService\\Utilizador.cs",
+              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Service\\UtilizadorService\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Service\\UtilizadorService\\Utilizador.cs",
+              "RelativeToolTip": "GestaoHotelariaAPI\\Service\\UtilizadorService\\Utilizador.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwIAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:18:19.08Z",
+              "WhenOpened": "2024-12-17T11:46:52.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Historico.cs",
-              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Historico.cs",
-              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Models\\Historico.cs",
-              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Historico.cs",
-              "RelativeToolTip": "GestaoHotelariaAPI\\Models\\Historico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IUtilizador.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Service\\UtilizadorService\\IUtilizador.cs",
+              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Service\\UtilizadorService\\IUtilizador.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Service\\UtilizadorService\\IUtilizador.cs",
+              "RelativeToolTip": "GestaoHotelariaAPI\\Service\\UtilizadorService\\IUtilizador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:11:53.69Z",
+              "WhenOpened": "2024-12-17T11:44:17.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Reserva.cs",
-              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Models\\Reserva.cs",
-              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Reserva.cs",
-              "RelativeToolTip": "GestaoHotelariaAPI\\Models\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "GestaoHotelariaAPI\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:08:33.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T11:07:21.567Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UtilizadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
+              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
+              "RelativeToolTip": "GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T11:07:07.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Utilizador.cs",
               "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Utilizador.cs",
               "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Models\\Utilizador.cs",
               "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Utilizador.cs",
               "RelativeToolTip": "GestaoHotelariaAPI\\Models\\Utilizador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:07:20.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:07:20.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Program.cs",
               "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Program.cs",
               "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Program.cs",
               "RelativeToolTip": "GestaoHotelariaAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:16:03.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:16:03.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GestaoHotelariaContext.cs",
               "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\GestaoHotelariaContext.cs",
               "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Models\\GestaoHotelariaContext.cs",
               "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\GestaoHotelariaContext.cs",
               "RelativeToolTip": "GestaoHotelariaAPI\\Models\\GestaoHotelariaContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T19:04:54.385Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Models\\Reserva.cs",
+              "RelativeToolTip": "GestaoHotelariaAPI\\Models\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T19:08:33.308Z"
             }
           ]
         }

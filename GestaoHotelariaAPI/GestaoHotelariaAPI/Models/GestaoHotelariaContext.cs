@@ -10,7 +10,8 @@ namespace GestaoHotelariaAPI.Models
 
         public DbSet<Utilizador> Utilizadores{ get; set; }
         public DbSet<Reserva> Reservas { get; set; }
-        public DbSet<Historico> Historicos { get; set; }
+
+
     }
 }
 

@@ -172,3 +172,8 @@ C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bi
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\GestaoHotelariaAPI.sourcelink.json
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\SoapCore.dll
+C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.Private.ServiceModel.dll
+C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.ServiceModel.Http.dll
+C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.ServiceModel.Primitives.dll
+C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.ServiceModel.dll

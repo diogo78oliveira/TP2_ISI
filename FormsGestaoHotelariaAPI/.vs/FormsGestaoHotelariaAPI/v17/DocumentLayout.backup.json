@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapi\\formsgestaohotelariaapi\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|solutionrelative:formsgestaohotelariaapi\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapi\\formsgestaohotelariaapi\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|solutionrelative:formsgestaohotelariaapi\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapi\\formsgestaohotelariaapi\\shared\\resthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|solutionrelative:formsgestaohotelariaapi\\shared\\resthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapi\\formsgestaohotelariaapi\\utilizadores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003F8DF5-A56B-4C0C-96B7-B74D7639F0D1}|FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI.csproj|solutionrelative:formsgestaohotelariaapi\\utilizadores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RestHelper.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Shared\\RestHelper.cs",
+              "RelativeDocumentMoniker": "FormsGestaoHotelariaAPI\\Shared\\RestHelper.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Shared\\RestHelper.cs",
+              "RelativeToolTip": "FormsGestaoHotelariaAPI\\Shared\\RestHelper.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAJMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:11:35.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utilizadores.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Utilizadores.cs",
+              "RelativeDocumentMoniker": "FormsGestaoHotelariaAPI\\Utilizadores.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Utilizadores.cs",
+              "RelativeToolTip": "FormsGestaoHotelariaAPI\\Utilizadores.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwFcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:18:34.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utilizadores.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Utilizadores.cs",
+              "RelativeDocumentMoniker": "FormsGestaoHotelariaAPI\\Utilizadores.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Utilizadores.cs [Projeto]",
+              "RelativeToolTip": "FormsGestaoHotelariaAPI\\Utilizadores.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:09:50.703Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilizadores.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Utilizadores.Designer.cs",
+              "RelativeDocumentMoniker": "FormsGestaoHotelariaAPI\\Utilizadores.Designer.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPI\\FormsGestaoHotelariaAPI\\Utilizadores.Designer.cs",
+              "RelativeToolTip": "FormsGestaoHotelariaAPI\\Utilizadores.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:09:12.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,10 +11,10 @@ C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotel
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.AssemblyInfo.cs
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.csproj.CoreCompileInputs.cache
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.sourcelink.json
-C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGes.A08404A9.Up2Date
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\refint\FormsGestaoHotelariaAPI.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.pdb
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.genruntimeconfig.cache
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\ref\FormsGestaoHotelariaAPI.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.Utilizadores.resources
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormsGestaoHotelariaAPI\obj\Debug\net8.0-windows\FormsGestaoHotelariaAPI.csproj.CopyComplete

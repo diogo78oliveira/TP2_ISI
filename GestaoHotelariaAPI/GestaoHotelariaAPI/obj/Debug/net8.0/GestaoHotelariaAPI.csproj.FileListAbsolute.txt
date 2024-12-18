@@ -1,6 +1,5 @@
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\appsettings.json
-C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\GestaoHotelariaAPI.staticwebassets.endpoints.json
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\GestaoHotelariaAPI.exe
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\GestaoHotelariaAPI.deps.json
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\GestaoHotelariaAPI.runtimeconfig.json
@@ -20,14 +19,11 @@ C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\ob
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\scopedcss\bundle\GestaoHotelariaAPI.styles.css
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets\msbuild.GestaoHotelariaAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets\msbuild.GestaoHotelariaAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.GestaoHotelariaAPI.props
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GestaoHotelariaAPI.props
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GestaoHotelariaAPI.props
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\GestaoHo.713BECD7.Up2Date
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\GestaoHotelariaAPI.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\refint\GestaoHotelariaAPI.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\GestaoHotelariaAPI.pdb
@@ -171,9 +167,9 @@ C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bi
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\GestaoHotelariaAPI.sourcelink.json
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\SoapCore.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.Private.ServiceModel.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.ServiceModel.Http.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.ServiceModel.Primitives.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\bin\Debug\net8.0\System.ServiceModel.dll
+C:\Users\diogo\Documents\GitHub\TP2_ISI\GestaoHotelariaAPI\GestaoHotelariaAPI\obj\Debug\net8.0\GestaoHotelariaAPI.csproj.CopyComplete

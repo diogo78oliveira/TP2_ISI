@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormsGestaoHotelariaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17383cf4015cbec1ef65ccf7c2d8f9057eb19e99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea5c33c65a017dc20cb9146ea64ec9878a2a7e2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormsGestaoHotelariaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormsGestaoHotelariaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

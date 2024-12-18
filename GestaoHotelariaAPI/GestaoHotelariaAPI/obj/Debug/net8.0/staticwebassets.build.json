@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "GwIB2oA+OEavpF82Elr8yWbd7JaTs78g/k9G5bNWs5U=",
+  "Hash": "+QG007F95HFCGLGzHKDi8ByaSSE0AAbmZGrLDXoKwQk=",
   "Source": "GestaoHotelariaAPI",
   "BasePath": "_content/GestaoHotelariaAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

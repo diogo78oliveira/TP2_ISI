@@ -1,141 +1,195 @@
 ﻿using GestaoHotelariaAPI.Service.UtilizadorService;
 using GestaoHotelariaAPI.Models;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace ISI_WebAPI.Service.UtilizadorService
 {
     public class UtilizadorService : IUtilizador
     {
-        private readonly GestaoHotelariaContext _context;
+        private readonly string _connectionString;
 
-        public UtilizadorService(GestaoHotelariaContext context)
+        public UtilizadorService(IConfiguration configuration)
         {
-            _context = context;
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
         // Obter todos os utilizadores
         public async Task<ServiceResponse<List<Utilizador>>> GetUtilizadores()
         {
-            ServiceResponse<List<Utilizador>> serviceResponse = new ServiceResponse<List<Utilizador>>();
+            var response = new ServiceResponse<List<Utilizador>> { Dados = new List<Utilizador>() };
+
             try
             {
-                serviceResponse.Dados = await _context.Utilizadores.ToListAsync();
-                if (serviceResponse.Dados.Count == 0)
+                using var connection = new SqlConnection(_connectionString);
+                using var command = new SqlCommand("SELECT * FROM Utilizadores", connection);
+                connection.Open();
+                using var reader = await command.ExecuteReaderAsync();
+
+                while (reader.Read())
                 {
-                    serviceResponse.Mensagem = "Nenhum utilizador encontrado.";
+                    response.Dados.Add(new Utilizador
+                    {
+                        UtilizadorID = reader.GetInt32(0),
+                        Nome = reader.GetString(1),
+                        Email = reader.GetString(2),
+                        Password = reader.GetString(3),
+                        Perfil = reader.GetString(4)
+                    });
+                }
+
+                if (!response.Dados.Any())
+                {
+                    response.Mensagem = "Nenhum utilizador encontrado.";
                 }
             }
             catch (Exception ex)
             {
-                serviceResponse.Mensagem = ex.Message;
-                serviceResponse.Sucesso = false;
+                response.Mensagem = ex.Message;
+                response.Sucesso = false;
             }
-            return serviceResponse;
+
+            return response;
         }
 
         // Obter um utilizador por ID
         public async Task<ServiceResponse<Utilizador>> GetUtilizadorById(int id)
         {
-            ServiceResponse<Utilizador> serviceResponse = new ServiceResponse<Utilizador>();
+            var response = new ServiceResponse<Utilizador>();
+
             try
             {
-                var utilizador = await _context.Utilizadores.FirstOrDefaultAsync(x => x.UtilizadorID == id);
-                if (utilizador == null)
+                using var connection = new SqlConnection(_connectionString);
+                using var command = new SqlCommand("SELECT * FROM Utilizadores WHERE UtilizadorID = @UtilizadorID", connection);
+                command.Parameters.AddWithValue("@UtilizadorID", id);
+
+                connection.Open();
+                using var reader = await command.ExecuteReaderAsync();
+
+                if (reader.Read())
                 {
-                    serviceResponse.Mensagem = "Utilizador não encontrado.";
-                    serviceResponse.Sucesso = false;
+                    response.Dados = new Utilizador
+                    {
+                        UtilizadorID = reader.GetInt32(0),
+                        Nome = reader.GetString(1),
+                        Email = reader.GetString(2),
+                        Password = reader.GetString(3),
+                        Perfil = reader.GetString(4)
+                    };
                 }
                 else
                 {
-                    serviceResponse.Dados = utilizador;
+                    response.Mensagem = "Utilizador não encontrado.";
+                    response.Sucesso = false;
                 }
             }
             catch (Exception ex)
             {
-                serviceResponse.Mensagem = ex.Message;
-                serviceResponse.Sucesso = false;
+                response.Mensagem = ex.Message;
+                response.Sucesso = false;
             }
-            return serviceResponse;
+
+            return response;
         }
 
         // Criar um novo utilizador
         public async Task<ServiceResponse<List<Utilizador>>> CreateUtilizador(Utilizador newUtilizador)
         {
-            ServiceResponse<List<Utilizador>> serviceResponse = new ServiceResponse<List<Utilizador>>();
+            var response = new ServiceResponse<List<Utilizador>>();
+
             try
             {
-                if (newUtilizador == null)
-                {
-                    serviceResponse.Mensagem = "Dados de utilizador inválidos.";
-                    serviceResponse.Sucesso = false;
-                    return serviceResponse;
-                }
+                using var connection = new SqlConnection(_connectionString);
+                using var command = new SqlCommand(
+                    "INSERT INTO Utilizadores (Nome, Email, Password, Perfil) VALUES (@Nome, @Email, @Password, @Perfil)", connection);
+                command.Parameters.AddWithValue("@Nome", newUtilizador.Nome);
+                command.Parameters.AddWithValue("@Email", newUtilizador.Email);
+                command.Parameters.AddWithValue("@Password", newUtilizador.Password);
+                command.Parameters.AddWithValue("@Perfil", newUtilizador.Perfil);
 
-                _context.Utilizadores.Add(newUtilizador);
-                await _context.SaveChangesAsync();
+                connection.Open();
+                await command.ExecuteNonQueryAsync();
 
-                serviceResponse.Dados = await _context.Utilizadores.ToListAsync();
+                response = await GetUtilizadores(); 
             }
             catch (Exception ex)
             {
-                serviceResponse.Mensagem = ex.Message;
-                serviceResponse.Sucesso = false;
+                response.Mensagem = ex.Message;
+                response.Sucesso = false;
             }
-            return serviceResponse;
+
+            return response;
         }
 
         // Atualizar um utilizador
         public async Task<ServiceResponse<List<Utilizador>>> UpdateUtilizador(Utilizador editUtilizador)
         {
-            ServiceResponse<List<Utilizador>> serviceResponse = new ServiceResponse<List<Utilizador>>();
+            var response = new ServiceResponse<List<Utilizador>>();
+
             try
             {
-                var utilizador = await _context.Utilizadores.AsNoTracking().FirstOrDefaultAsync(x => x.UtilizadorID == editUtilizador.UtilizadorID);
-                if (utilizador == null)
+                using var connection = new SqlConnection(_connectionString);
+                using var command = new SqlCommand(
+                    "UPDATE Utilizadores SET Nome = @Nome, Email = @Email, Password = @Password, Perfil = @Perfil WHERE UtilizadorID = @UtilizadorID", connection);
+                command.Parameters.AddWithValue("@Nome", editUtilizador.Nome);
+                command.Parameters.AddWithValue("@Email", editUtilizador.Email);
+                command.Parameters.AddWithValue("@Password", editUtilizador.Password);
+                command.Parameters.AddWithValue("@Perfil", editUtilizador.Perfil);
+                command.Parameters.AddWithValue("@UtilizadorID", editUtilizador.UtilizadorID);
+
+                connection.Open();
+                var rowsAffected = await command.ExecuteNonQueryAsync();
+
+                if (rowsAffected == 0)
                 {
-                    serviceResponse.Mensagem = "Utilizador não encontrado.";
-                    serviceResponse.Sucesso = false;
-                    return serviceResponse;
+                    response.Mensagem = "Utilizador não encontrado.";
+                    response.Sucesso = false;
                 }
-
-                _context.Utilizadores.Update(editUtilizador);
-                await _context.SaveChangesAsync();
-
-                serviceResponse.Dados = await _context.Utilizadores.ToListAsync();
+                else
+                {
+                    response = await GetUtilizadores(); 
+                }
             }
             catch (Exception ex)
             {
-                serviceResponse.Mensagem = ex.Message;
-                serviceResponse.Sucesso = false;
+                response.Mensagem = ex.Message;
+                response.Sucesso = false;
             }
-            return serviceResponse;
+
+            return response;
         }
 
         // Excluir um utilizador
         public async Task<ServiceResponse<List<Utilizador>>> DeleteUtilizador(int id)
         {
-            ServiceResponse<List<Utilizador>> serviceResponse = new ServiceResponse<List<Utilizador>>();
+            var response = new ServiceResponse<List<Utilizador>>();
+
             try
             {
-                var utilizador = await _context.Utilizadores.FirstOrDefaultAsync(x => x.UtilizadorID == id);
-                if (utilizador == null)
+                using var connection = new SqlConnection(_connectionString);
+                using var command = new SqlCommand("DELETE FROM Utilizadores WHERE UtilizadorID = @UtilizadorID", connection);
+                command.Parameters.AddWithValue("@UtilizadorID", id);
+
+                connection.Open();
+                var rowsAffected = await command.ExecuteNonQueryAsync();
+
+                if (rowsAffected == 0)
                 {
-                    serviceResponse.Mensagem = "Utilizador não encontrado.";
-                    serviceResponse.Sucesso = false;
-                    return serviceResponse;
+                    response.Mensagem = "Utilizador não encontrado.";
+                    response.Sucesso = false;
                 }
-
-                _context.Utilizadores.Remove(utilizador);
-                await _context.SaveChangesAsync();
-
-                serviceResponse.Dados = await _context.Utilizadores.ToListAsync();
+                else
+                {
+                    response = await GetUtilizadores(); 
+                }
             }
             catch (Exception ex)
             {
-                serviceResponse.Mensagem = ex.Message;
-                serviceResponse.Sucesso = false;
+                response.Mensagem = ex.Message;
+                response.Sucesso = false;
             }
-            return serviceResponse;
+
+            return response;
         }
     }
 }

@@ -5,146 +5,30 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Reservas": {
-      "get": {
-        "tags": [
-          "Reservas"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Reserva"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Reserva"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Reserva"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
+    "/api/Auth/login": {
       "post": {
         "tags": [
-          "Reservas"
+          "Auth"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/LoginRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/LoginRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/LoginRequest"
               }
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reserva"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reserva"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reserva"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/Reservas/{id}": {
-      "put": {
-        "tags": [
-          "Reservas"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Reserva"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Reserva"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Reserva"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Reservas"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -163,26 +47,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Utilizador"
-                  }
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Utilizador"
-                  }
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Utilizador"
-                  }
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
                 }
               }
             }
@@ -218,17 +93,63 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Utilizador"
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Utilizador"
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Utilizador"
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Utilizadores"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Utilizador"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Utilizador"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Utilizador"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
                 }
               }
             }
@@ -258,60 +179,20 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Utilizador"
+                  "$ref": "#/components/schemas/UtilizadorServiceResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Utilizador"
+                  "$ref": "#/components/schemas/UtilizadorServiceResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Utilizador"
+                  "$ref": "#/components/schemas/UtilizadorServiceResponse"
                 }
               }
             }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Utilizadores"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Utilizador"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Utilizador"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Utilizador"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
           }
         }
       },
@@ -332,7 +213,24 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilizadorListServiceResponse"
+                }
+              }
+            }
           }
         }
       }
@@ -340,39 +238,16 @@
   },
   "components": {
     "schemas": {
-      "Reserva": {
+      "LoginRequest": {
         "type": "object",
         "properties": {
-          "reservaID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "utilizadorID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "dataReserva": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "dataEntrada": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "dataSaida": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "status": {
+          "email": {
             "type": "string",
             "nullable": true
           },
-          "quarto": {
+          "password": {
             "type": "string",
             "nullable": true
-          },
-          "utilizador": {
-            "$ref": "#/components/schemas/Utilizador"
           }
         },
         "additionalProperties": false
@@ -402,7 +277,56 @@
           }
         },
         "additionalProperties": false
+      },
+      "UtilizadorListServiceResponse": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Utilizador"
+            },
+            "nullable": true
+          },
+          "mensagem": {
+            "type": "string",
+            "nullable": true
+          },
+          "sucesso": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UtilizadorServiceResponse": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "$ref": "#/components/schemas/Utilizador"
+          },
+          "mensagem": {
+            "type": "string",
+            "nullable": true
+          },
+          "sucesso": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Insira o token JWT no formato 'Bearer {token}'",
+        "name": "Authorization",
+        "in": "header"
       }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

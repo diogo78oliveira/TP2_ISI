@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\webapplicationgestaohotelariaws\\services\\gestaohotelariagestor.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|solutionrelative:webapplicationgestaohotelariaws\\services\\gestaohotelariagestor.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\webapplicationgestaohotelariaws\\services\\gestaohotelariacliente.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|solutionrelative:webapplicationgestaohotelariaws\\services\\gestaohotelariacliente.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\webapplicationgestaohotelariaws\\webapplicationgestaohotelariaws\\historicoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|solutionrelative:webapplicationgestaohotelariaws\\historicoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\webapplicationgestaohotelariaws\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C98B654C-4E14-452A-9385-B12A29D5F51B}|WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS.csproj|solutionrelative:webapplicationgestaohotelariaws\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestaoHotelariaGestor.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaGestor.asmx.cs",
+              "RelativeDocumentMoniker": "WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaGestor.asmx.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaGestor.asmx.cs",
+              "RelativeToolTip": "WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaGestor.asmx.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwG0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T14:57:18.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HistoricoItem.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\HistoricoItem.cs",
+              "RelativeDocumentMoniker": "WebApplicationGestaoHotelariaWS\\HistoricoItem.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\HistoricoItem.cs",
+              "RelativeToolTip": "WebApplicationGestaoHotelariaWS\\HistoricoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T14:43:10.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\Web.config",
+              "RelativeDocumentMoniker": "WebApplicationGestaoHotelariaWS\\Web.config",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\Web.config",
+              "RelativeToolTip": "WebApplicationGestaoHotelariaWS\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-28T14:38:56.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestaoHotelariaCliente.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaCliente.asmx.cs",
+              "RelativeDocumentMoniker": "WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaCliente.asmx.cs",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\WebApplicationGestaoHotelariaWS\\WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaCliente.asmx.cs",
+              "RelativeToolTip": "WebApplicationGestaoHotelariaWS\\Services\\GestaoHotelariaCliente.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T14:33:06.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

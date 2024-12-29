@@ -1,82 +1,15 @@
 [
   {
-    "ContainingType": "GestaoHotelariaAPI.Controllers.ReservasController",
-    "Method": "GetReservas",
-    "RelativePath": "api/Reservas",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoHotelariaAPI.Models.Reserva, GestaoHotelariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "GestaoHotelariaAPI.Controllers.ReservasController",
-    "Method": "PostReserva",
-    "RelativePath": "api/Reservas",
+    "ContainingType": "AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reserva",
-        "Type": "GestaoHotelariaAPI.Models.Reserva",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "GestaoHotelariaAPI.Models.Reserva",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "GestaoHotelariaAPI.Controllers.ReservasController",
-    "Method": "PutReserva",
-    "RelativePath": "api/Reservas/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "reserva",
-        "Type": "GestaoHotelariaAPI.Models.Reserva",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GestaoHotelariaAPI.Controllers.ReservasController",
-    "Method": "DeleteReserva",
-    "RelativePath": "api/Reservas/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "request",
+        "Type": "GestaoHotelariaAPI.Models.LoginRequest",
         "IsRequired": true
       }
     ],
@@ -92,7 +25,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoHotelariaAPI.Models.Utilizador, GestaoHotelariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "GestaoHotelariaAPI.Models.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHotelariaAPI.Models.Utilizador, GestaoHotelariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -104,21 +37,21 @@
   },
   {
     "ContainingType": "GestaoHotelariaAPI.Controllers.UtilizadoresController",
-    "Method": "PostUtilizador",
+    "Method": "CreateUtilizador",
     "RelativePath": "api/Utilizadores",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "utilizador",
+        "Name": "newUtilizador",
         "Type": "GestaoHotelariaAPI.Models.Utilizador",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "GestaoHotelariaAPI.Models.Utilizador",
+        "Type": "GestaoHotelariaAPI.Models.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHotelariaAPI.Models.Utilizador, GestaoHotelariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -130,7 +63,33 @@
   },
   {
     "ContainingType": "GestaoHotelariaAPI.Controllers.UtilizadoresController",
-    "Method": "GetUtilizador",
+    "Method": "UpdateUtilizador",
+    "RelativePath": "api/Utilizadores",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editUtilizador",
+        "Type": "GestaoHotelariaAPI.Models.Utilizador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHotelariaAPI.Models.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHotelariaAPI.Models.Utilizador, GestaoHotelariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHotelariaAPI.Controllers.UtilizadoresController",
+    "Method": "GetUtilizadorById",
     "RelativePath": "api/Utilizadores/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -144,7 +103,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "GestaoHotelariaAPI.Models.Utilizador",
+        "Type": "GestaoHotelariaAPI.Models.ServiceResponse\u00601[[GestaoHotelariaAPI.Models.Utilizador, GestaoHotelariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -153,27 +112,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "GestaoHotelariaAPI.Controllers.UtilizadoresController",
-    "Method": "PutUtilizador",
-    "RelativePath": "api/Utilizadores/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "utilizador",
-        "Type": "GestaoHotelariaAPI.Models.Utilizador",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "GestaoHotelariaAPI.Controllers.UtilizadoresController",
@@ -189,6 +127,16 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHotelariaAPI.Models.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHotelariaAPI.Models.Utilizador, GestaoHotelariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

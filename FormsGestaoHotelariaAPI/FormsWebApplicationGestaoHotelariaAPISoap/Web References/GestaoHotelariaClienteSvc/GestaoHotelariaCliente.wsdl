@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://www.ipca.pt/gestaohotelaria/cliente" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://www.ipca.pt/gestaohotelaria/cliente" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ipca.pt/gestaohotelaria/cliente">
+      <s:element name="CriarReserva">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Quarto" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CriarReservaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CriarReservaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AlterarOuCancelarReserva">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReservaID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="justificacao" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipoPedido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AlterarOuCancelarReservaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AlterarOuCancelarReservaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CriarReservaSoapIn">
+    <wsdl:part name="parameters" element="tns:CriarReserva" />
+  </wsdl:message>
+  <wsdl:message name="CriarReservaSoapOut">
+    <wsdl:part name="parameters" element="tns:CriarReservaResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlterarOuCancelarReservaSoapIn">
+    <wsdl:part name="parameters" element="tns:AlterarOuCancelarReserva" />
+  </wsdl:message>
+  <wsdl:message name="AlterarOuCancelarReservaSoapOut">
+    <wsdl:part name="parameters" element="tns:AlterarOuCancelarReservaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="GestaoHotelariaSoap">
+    <wsdl:operation name="CriarReserva">
+      <wsdl:input message="tns:CriarReservaSoapIn" />
+      <wsdl:output message="tns:CriarReservaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AlterarOuCancelarReserva">
+      <wsdl:input message="tns:AlterarOuCancelarReservaSoapIn" />
+      <wsdl:output message="tns:AlterarOuCancelarReservaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GestaoHotelariaSoap" type="tns:GestaoHotelariaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CriarReserva">
+      <soap:operation soapAction="http://www.ipca.pt/gestaohotelaria/cliente/CriarReserva" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlterarOuCancelarReserva">
+      <soap:operation soapAction="http://www.ipca.pt/gestaohotelaria/cliente/AlterarOuCancelarReserva" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GestaoHotelariaSoap12" type="tns:GestaoHotelariaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CriarReserva">
+      <soap12:operation soapAction="http://www.ipca.pt/gestaohotelaria/cliente/CriarReserva" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlterarOuCancelarReserva">
+      <soap12:operation soapAction="http://www.ipca.pt/gestaohotelaria/cliente/AlterarOuCancelarReserva" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GestaoHotelaria">
+    <wsdl:port name="GestaoHotelariaSoap" binding="tns:GestaoHotelariaSoap">
+      <soap:address location="https://localhost:44362/Services/GestaoHotelariaCliente.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GestaoHotelariaSoap12" binding="tns:GestaoHotelariaSoap12">
+      <soap12:address location="https://localhost:44362/Services/GestaoHotelariaCliente.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

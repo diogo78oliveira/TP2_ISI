@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GestaoHotelariaAPI</name>
+    </assembly>
+    <members>
+        <member name="T:GestaoHotelariaAPI.Controllers.UtilizadoresController">
+            <summary>
+            Controlador para gerir os utilizadores do sistema.
+            </summary>
+        </member>
+        <member name="M:GestaoHotelariaAPI.Controllers.UtilizadoresController.#ctor(GestaoHotelariaAPI.Service.UtilizadorService.IUtilizador)">
+            <summary>
+            Inicializa o controlador de utilizadores.
+            </summary>
+            <param name="utilizadorService">Serviço de utilizadores para execução das operações.</param>
+        </member>
+        <member name="M:GestaoHotelariaAPI.Controllers.UtilizadoresController.GetUtilizadores">
+            <summary>
+            Obtém a lista de todos os utilizadores.
+            </summary>
+            <returns>Lista de utilizadores.</returns>
+        </member>
+        <member name="M:GestaoHotelariaAPI.Controllers.UtilizadoresController.GetUtilizadorById(System.Int32)">
+            <summary>
+            Obtém os dados de um utilizador específico pelo ID.
+            </summary>
+            <param name="id">ID do utilizador.</param>
+            <remarks> Como usar: Inserir o ID do utilizador a ser procurado </remarks>
+            <returns>Dados do utilizador solicitado.</returns>
+        </member>
+        <member name="M:GestaoHotelariaAPI.Controllers.UtilizadoresController.CreateUtilizador(GestaoHotelariaAPI.Models.Utilizador)">
+            <summary>
+            Cria um novo utilizador.
+            </summary>
+            <param name="newUtilizador">Dados do novo utilizador.</param>
+            <remarks>
+            Exemplo de uso em JSON:
+            {
+              "utilizadorID": 0,
+              "nome": "Dinis Sousa",
+              "email": "dinis@email.com",
+              "perfil": "cliente",
+              "password": "dinissousa999"
+            }
+            </remarks>
+            <returns>Resultado da criação do utilizador.</returns>
+        </member>
+        <member name="M:GestaoHotelariaAPI.Controllers.UtilizadoresController.UpdateUtilizador(GestaoHotelariaAPI.Models.Utilizador)">
+            <summary>
+            Atualiza os dados de um utilizador existente.
+            </summary>
+            <remarks>
+            Exemplo de uso em JSON:
+            {
+              "utilizadorID": 3021(id do utilizador a ser alterado),
+              "nome": "Dinis Sousa Edit",
+              "email": "dinisEdit@email.com",
+              "perfil": "cliente",
+              "password": "dinissousa999Edit"
+            }
+            </remarks>
+            <param name="editUtilizador">Dados do utilizador a ser atualizado.</param>
+            <returns>Resultado da atualização do utilizador.</returns>
+        </member>
+        <member name="M:GestaoHotelariaAPI.Controllers.UtilizadoresController.DeleteUtilizador(System.Int32)">
+            <summary>
+            Elimina um utilizador pelo ID.
+            </summary>
+            <param name="id">ID do utilizador a eliminar.</param>
+            <remarks> Como usar: Inserir o ID do utilizador a ser removido </remarks>
+            <returns>Resultado da eliminação do utilizador.</returns>
+        </member>
+        <member name="M:AuthController.Login(GestaoHotelariaAPI.Models.LoginRequest)">
+            <summary>
+            Realiza o login do utilizador e retorna um token.
+            </summary>
+            <param name="request">Objeto de solicitação com email e password do utilizador.</param>
+            <returns>Token JWT para autenticação.</returns>
+        </member>
+        <member name="M:AuthController.GenerateJwtToken(GestaoHotelariaAPI.Models.Utilizador)">
+            <summary>
+            Gera um token JWT para o utilizador autenticado.
+            </summary>
+            <param name="user">Utilizador autenticado.</param>
+            <returns>Token JWT gerado.</returns>
+        </member>
+    </members>
+</doc>

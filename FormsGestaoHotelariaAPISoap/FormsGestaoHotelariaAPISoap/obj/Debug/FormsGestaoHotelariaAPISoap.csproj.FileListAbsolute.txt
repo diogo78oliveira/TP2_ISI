@@ -1,0 +1,11 @@
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\bin\Debug\FormsGestaoHotelariaAPISoap.exe.config
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\bin\Debug\FormsGestaoHotelariaAPISoap.exe
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\bin\Debug\FormsGestaoHotelariaAPISoap.pdb
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.csproj.AssemblyReference.cache
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.Properties.Resources.resources
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.csproj.GenerateResource.cache
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.csproj.CoreCompileInputs.cache
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.exe
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.pdb
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.ClienteForm.resources
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPISoap\FormsGestaoHotelariaAPISoap\obj\Debug\FormsGestaoHotelariaAPISoap.GestorForm.resources

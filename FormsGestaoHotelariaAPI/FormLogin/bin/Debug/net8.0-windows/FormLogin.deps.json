@@ -422,7 +422,10 @@
           "System.Net.Http": "4.3.4"
         },
         "runtime": {
-          "FormsGestaoHotelariaAPI.dll": {}
+          "FormsGestaoHotelariaAPI.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

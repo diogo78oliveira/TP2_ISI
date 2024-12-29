@@ -1,3 +1,6 @@
+using FormsGestaoHotelariaAPI;
+using Newtonsoft.Json;
+using System.Text;
 using System;
 using System.Net.Http;
 using System.Text;
@@ -18,29 +21,29 @@ namespace FormLogin
         }
 
 
-            private async void btnLogin_Click(object sender, EventArgs e)
+        private async void btnLogin_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
+
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
-                string email = txtEmail.Text;
-                string password = txtPassword.Text;
+                MessageBox.Show("Por favor, preencha ambos os campos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
-                if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
-                {
-                    MessageBox.Show("Por favor, preencha ambos os campos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
+            var loginRequest = new
+            {
+                Email = email,
+                Password = password
+            };
 
-                var loginRequest = new
-                {
-                    Email = email,
-                    Password = password
-                };
+            var jsonContent = JsonConvert.SerializeObject(loginRequest);
+            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
-                var jsonContent = JsonConvert.SerializeObject(loginRequest);
-                var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
-
-                try
-                {
-                    var response = await client.PostAsync("https://localhost:7056/api/Auth/login", content);
+            try
+            {
+                var response = await client.PostAsync("https://localhost:7056/api/Auth/login", content);
                 if (response.IsSuccessStatusCode)
                 {
                     var responseString = await response.Content.ReadAsStringAsync();
@@ -53,25 +56,22 @@ namespace FormLogin
                     this.Hide();
                 }
 
-                    else
-                    {
-                        var errorResponse = await response.Content.ReadAsStringAsync();
-                        MessageBox.Show($"Erro: {errorResponse}", "Falha no Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show($"Ocorreu um erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    var errorResponse = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"Erro: {errorResponse}", "Falha no Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-        }
-
-        public class LoginResponse
-        {
-            public string Token { get; set; }
-            public string Perfil { get; set; }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocorreu um erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 
-
-
+    public class LoginResponse
+    {
+        public string Token { get; set; }
+        public string Perfil { get; set; }
+    }
+}

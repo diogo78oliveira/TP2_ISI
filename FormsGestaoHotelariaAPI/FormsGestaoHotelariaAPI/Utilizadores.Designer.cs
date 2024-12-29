@@ -2,15 +2,8 @@
 {
     partial class Utilizadores
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,12 +13,6 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             btnGetUtilizadores = new Button();
@@ -39,138 +26,174 @@
             txtResponse = new RichTextBox();
             txtEmail = new TextBox();
             txtPassword = new TextBox();
+            lblTitle = new Label();
+            panelRequest = new Panel();
+            panelResponse = new Panel();
             SuspendLayout();
+
             // 
-            // btnGetUtilizadores
+            // lblTitle
             // 
-            btnGetUtilizadores.Font = new Font("Segoe UI", 12F);
-            btnGetUtilizadores.Location = new Point(47, 20);
-            btnGetUtilizadores.Name = "btnGetUtilizadores";
-            btnGetUtilizadores.Size = new Size(120, 64);
-            btnGetUtilizadores.TabIndex = 0;
-            btnGetUtilizadores.Text = "Carregar Utilizadores";
-            btnGetUtilizadores.UseVisualStyleBackColor = true;
-            btnGetUtilizadores.Click += btnGetUtilizadores_Click;
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            lblTitle.ForeColor = Color.White;
+            lblTitle.Location = new Point(320, 10);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(160, 32);
+            lblTitle.TabIndex = 0;
+            lblTitle.Text = "API Utilizadores";
+
             // 
-            // btnDelete
+            // panelRequest
             // 
-            btnDelete.Font = new Font("Segoe UI", 12F);
-            btnDelete.Location = new Point(701, 20);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(87, 64);
-            btnDelete.TabIndex = 1;
-            btnDelete.Text = "Apagar";
-            btnDelete.UseVisualStyleBackColor = true;
-            btnDelete.Click += btnDelete_Click;
-            // 
-            // btnGet
-            // 
-            btnGet.Font = new Font("Segoe UI", 12F);
-            btnGet.Location = new Point(192, 55);
-            btnGet.Name = "btnGet";
-            btnGet.Size = new Size(100, 29);
-            btnGet.TabIndex = 2;
-            btnGet.Text = "CARREGAR POR ID";
-            btnGet.UseVisualStyleBackColor = true;
-            btnGet.Click += btnGet_Click;
-            // 
-            // btnPut
-            // 
-            btnPut.Font = new Font("Segoe UI", 12F);
-            btnPut.Location = new Point(608, 20);
-            btnPut.Name = "btnPut";
-            btnPut.Size = new Size(87, 64);
-            btnPut.TabIndex = 3;
-            btnPut.Text = "Atualizar";
-            btnPut.UseVisualStyleBackColor = true;
-            btnPut.Click += btnPut_Click;
-            // 
-            // btnPost
-            // 
-            btnPost.Font = new Font("Segoe UI", 12F);
-            btnPost.Location = new Point(520, 20);
-            btnPost.Name = "btnPost";
-            btnPost.Size = new Size(82, 64);
-            btnPost.TabIndex = 4;
-            btnPost.Text = "Criar";
-            btnPost.UseVisualStyleBackColor = true;
-            btnPost.Click += btnPost_Click;
-            // 
-            // txtPerfil
-            // 
-            txtPerfil.Location = new Point(398, 78);
-            txtPerfil.Name = "txtPerfil";
-            txtPerfil.Size = new Size(100, 23);
-            txtPerfil.TabIndex = 6;
-            txtPerfil.Text = "Tipo";
-            // 
-            // txtNome
-            // 
-            txtNome.Location = new Point(398, 20);
-            txtNome.Name = "txtNome";
-            txtNome.Size = new Size(100, 23);
-            txtNome.TabIndex = 7;
-            txtNome.Text = "Nome";
+            panelRequest.BackColor = Color.FromArgb(45, 45, 48);
+            panelRequest.Controls.Add(txtPerfil);
+            panelRequest.Controls.Add(txtNome);
+            panelRequest.Controls.Add(txtID);
+            panelRequest.Controls.Add(txtEmail);
+            panelRequest.Controls.Add(txtPassword);
+            panelRequest.Controls.Add(btnPost);
+            panelRequest.Controls.Add(btnPut);
+            panelRequest.Controls.Add(btnGet);
+            panelRequest.Controls.Add(btnDelete);
+            panelRequest.Location = new Point(12, 50);
+            panelRequest.Name = "panelRequest";
+            panelRequest.Size = new Size(760, 250);
+            panelRequest.TabIndex = 1;
+
             // 
             // txtID
             // 
-            txtID.Font = new Font("Segoe UI", 12F);
-            txtID.Location = new Point(192, 20);
+            txtID.Location = new Point(10, 10);
             txtID.Name = "txtID";
-            txtID.Size = new Size(100, 29);
+            txtID.Size = new Size(150, 29);
             txtID.TabIndex = 8;
             txtID.Text = "ID";
+            txtID.Font = new Font("Segoe UI", 10F);
+
             // 
-            // txtResponse
+            // txtNome
             // 
-            txtResponse.Location = new Point(47, 148);
-            txtResponse.Name = "txtResponse";
-            txtResponse.Size = new Size(693, 255);
-            txtResponse.TabIndex = 9;
-            txtResponse.Text = "";
-            txtResponse.TextChanged += txtResponse_TextChanged;
+            txtNome.Location = new Point(170, 10);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(150, 29);
+            txtNome.TabIndex = 7;
+            txtNome.Text = "Nome";
+            txtNome.Font = new Font("Segoe UI", 10F);
+
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(398, 49);
+            txtEmail.Location = new Point(10, 50);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(100, 23);
+            txtEmail.Size = new Size(150, 29);
             txtEmail.TabIndex = 11;
             txtEmail.Text = "Email";
+            txtEmail.Font = new Font("Segoe UI", 10F);
+
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(398, 107);
+            txtPassword.Location = new Point(170, 50);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(100, 23);
+            txtPassword.Size = new Size(150, 29);
             txtPassword.TabIndex = 12;
             txtPassword.Text = "Password";
-            txtPassword.TextChanged += txtPassword_TextChanged;
+            txtPassword.Font = new Font("Segoe UI", 10F);
+
+            // 
+            // txtPerfil
+            // 
+            txtPerfil.Location = new Point(330, 50);
+            txtPerfil.Name = "txtPerfil";
+            txtPerfil.Size = new Size(150, 29);
+            txtPerfil.TabIndex = 6;
+            txtPerfil.Text = "Tipo";
+            txtPerfil.Font = new Font("Segoe UI", 10F);
+
+            // 
+            // btnPost
+            // 
+            btnPost.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnPost.BackColor = Color.MediumSeaGreen;
+            btnPost.ForeColor = Color.White;
+            btnPost.Location = new Point(10, 150);
+            btnPost.Size = new Size(120, 60);
+            btnPost.Text = "Criar";
+            btnPost.Click += btnPost_Click;
+
+            // 
+            // btnPut
+            // 
+            btnPut.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnPut.BackColor = Color.Gold;
+            btnPut.ForeColor = Color.White;
+            btnPut.Location = new Point(140, 150);
+            btnPut.Size = new Size(120, 60);
+            btnPut.Text = "Atualizar";
+            btnPut.Click += btnPut_Click;
+
+            // 
+            // btnGet
+            // 
+            btnGet.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnGet.BackColor = Color.CornflowerBlue;
+            btnGet.ForeColor = Color.White;
+            btnGet.Location = new Point(270, 150);
+            btnGet.Size = new Size(120, 60);
+            btnGet.Text = "CARREGAR";
+            btnGet.Click += btnGet_Click;
+
+            // 
+            // btnDelete
+            // 
+            btnDelete.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnDelete.BackColor = Color.Red;
+            btnDelete.ForeColor = Color.White;
+            btnDelete.Location = new Point(400, 150);
+            btnDelete.Size = new Size(120, 60);
+            btnDelete.Text = "Apagar";
+            btnDelete.Click += btnDelete_Click;
+
+            // 
+            // panelResponse
+            // 
+            panelResponse.BackColor = Color.FromArgb(45, 45, 48);
+            panelResponse.Controls.Add(txtResponse);
+            panelResponse.Location = new Point(12, 310);
+            panelResponse.Name = "panelResponse";
+            panelResponse.Size = new Size(760, 200);
+            panelResponse.TabIndex = 2;
+
+            // 
+            // txtResponse
+            // 
+            txtResponse.Location = new Point(10, 10);
+            txtResponse.Name = "txtResponse";
+            txtResponse.Size = new Size(740, 180);
+            txtResponse.TabIndex = 9;
+            txtResponse.Text = "";
+            txtResponse.BackColor = Color.FromArgb(30, 30, 30);
+            txtResponse.ForeColor = Color.White;
+            txtResponse.Font = new Font("Segoe UI", 12F);
+            txtResponse.ReadOnly = true;
+
             // 
             // Utilizadores
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(txtPassword);
-            Controls.Add(txtEmail);
-            Controls.Add(txtResponse);
-            Controls.Add(txtID);
-            Controls.Add(txtNome);
-            Controls.Add(txtPerfil);
-            Controls.Add(btnPost);
-            Controls.Add(btnPut);
-            Controls.Add(btnGet);
-            Controls.Add(btnDelete);
-            Controls.Add(btnGetUtilizadores);
+            ClientSize = new Size(784, 521);
+            Controls.Add(panelRequest);
+            Controls.Add(panelResponse);
+            Controls.Add(lblTitle);
             Name = "Utilizadores";
-            Text = "Utilizadores";
+            Text = "Gestão de Utilizadores";
+            BackColor = Color.FromArgb(30, 30, 30);
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
-
-        #endregion
 
         private Button btnGetUtilizadores;
         private Button btnDelete;
@@ -183,5 +206,8 @@
         private RichTextBox txtResponse;
         private TextBox txtEmail;
         private TextBox txtPassword;
+        private Label lblTitle;
+        private Panel panelRequest;
+        private Panel panelResponse;
     }
 }

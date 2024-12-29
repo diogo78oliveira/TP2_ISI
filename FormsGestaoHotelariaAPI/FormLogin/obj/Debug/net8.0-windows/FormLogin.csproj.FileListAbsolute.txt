@@ -12,7 +12,6 @@ C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\De
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\Debug\net8.0-windows\FormLogin.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\Debug\net8.0-windows\FormLogin.pdb
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
-C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\obj\Debug\net8.0-windows\FormLogin.csproj.CopyComplete
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\obj\Debug\net8.0-windows\FormLogin.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\obj\Debug\net8.0-windows\refint\FormLogin.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\obj\Debug\net8.0-windows\FormLogin.pdb
@@ -23,3 +22,4 @@ C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\De
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\Debug\net8.0-windows\FormsGestaoHotelariaAPI.exe
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\Debug\net8.0-windows\FormsGestaoHotelariaAPI.dll
 C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\bin\Debug\net8.0-windows\FormsGestaoHotelariaAPI.pdb
+C:\Users\diogo\Documents\GitHub\TP2_ISI\FormsGestaoHotelariaAPI\FormLogin\obj\Debug\net8.0-windows\FormLogin.csproj.Up2Date

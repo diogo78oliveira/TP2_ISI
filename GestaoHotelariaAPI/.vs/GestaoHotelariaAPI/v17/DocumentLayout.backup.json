@@ -66,20 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GestaoHotelariaAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
-              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
-              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
-              "RelativeToolTip": "GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-21T22:31:17.309Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -148,10 +136,22 @@
               "RelativeDocumentMoniker": "GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
               "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
               "RelativeToolTip": "GestaoHotelariaAPI\\Controllers\\UtilizadoresController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwBAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T11:07:07.1Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestaoHotelariaAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
+              "RelativeDocumentMoniker": "GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
+              "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\GestaoHotelariaAPI\\GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
+              "RelativeToolTip": "GestaoHotelariaAPI\\GestaoHotelariaAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-21T22:31:17.309Z"
             },
             {
               "$type": "Document",

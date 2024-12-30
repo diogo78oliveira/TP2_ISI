@@ -36,7 +36,7 @@
             // 
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
-            lblTitle.ForeColor = Color.White;
+            lblTitle.ForeColor = Color.FromArgb(30, 30, 30); // Texto escuro para contraste
             lblTitle.Location = new Point(320, 10);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(160, 32);
@@ -46,7 +46,7 @@
             // 
             // panelRequest
             // 
-            panelRequest.BackColor = Color.FromArgb(45, 45, 48);
+            panelRequest.BackColor = Color.White; // Fundo branco
             panelRequest.Controls.Add(txtPerfil);
             panelRequest.Controls.Add(txtNome);
             panelRequest.Controls.Add(txtID);
@@ -70,6 +70,9 @@
             txtID.TabIndex = 8;
             txtID.Text = "ID";
             txtID.Font = new Font("Segoe UI", 10F);
+            txtID.ForeColor = Color.Black; // Texto escuro
+            txtID.BackColor = Color.FromArgb(240, 240, 240); // Fundo claro
+            txtID.BorderStyle = BorderStyle.FixedSingle;
 
             // 
             // txtNome
@@ -80,6 +83,9 @@
             txtNome.TabIndex = 7;
             txtNome.Text = "Nome";
             txtNome.Font = new Font("Segoe UI", 10F);
+            txtNome.ForeColor = Color.Black;
+            txtNome.BackColor = Color.FromArgb(240, 240, 240);
+            txtNome.BorderStyle = BorderStyle.FixedSingle;
 
             // 
             // txtEmail
@@ -90,6 +96,9 @@
             txtEmail.TabIndex = 11;
             txtEmail.Text = "Email";
             txtEmail.Font = new Font("Segoe UI", 10F);
+            txtEmail.ForeColor = Color.Black;
+            txtEmail.BackColor = Color.FromArgb(240, 240, 240);
+            txtEmail.BorderStyle = BorderStyle.FixedSingle;
 
             // 
             // txtPassword
@@ -100,6 +109,9 @@
             txtPassword.TabIndex = 12;
             txtPassword.Text = "Password";
             txtPassword.Font = new Font("Segoe UI", 10F);
+            txtPassword.ForeColor = Color.Black;
+            txtPassword.BackColor = Color.FromArgb(240, 240, 240);
+            txtPassword.BorderStyle = BorderStyle.FixedSingle;
 
             // 
             // txtPerfil
@@ -110,55 +122,62 @@
             txtPerfil.TabIndex = 6;
             txtPerfil.Text = "Tipo";
             txtPerfil.Font = new Font("Segoe UI", 10F);
+            txtPerfil.ForeColor = Color.Black;
+            txtPerfil.BackColor = Color.FromArgb(240, 240, 240);
+            txtPerfil.BorderStyle = BorderStyle.FixedSingle;
 
             // 
             // btnPost
             // 
-            btnPost.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            btnPost.BackColor = Color.MediumSeaGreen;
-            btnPost.ForeColor = Color.White;
+            btnPost.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnPost.BackColor = Color.LightGreen; // Verde claro
+            btnPost.ForeColor = Color.Black;
             btnPost.Location = new Point(10, 150);
-            btnPost.Size = new Size(120, 60);
+            btnPost.Size = new Size(120, 45);
             btnPost.Text = "Criar";
+            btnPost.FlatStyle = FlatStyle.Flat;
             btnPost.Click += btnPost_Click;
 
             // 
             // btnPut
             // 
-            btnPut.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            btnPut.BackColor = Color.Gold;
-            btnPut.ForeColor = Color.White;
+            btnPut.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnPut.BackColor = Color.LightGoldenrodYellow; // Amarelo claro
+            btnPut.ForeColor = Color.Black;
             btnPut.Location = new Point(140, 150);
-            btnPut.Size = new Size(120, 60);
+            btnPut.Size = new Size(120, 45);
             btnPut.Text = "Atualizar";
+            btnPut.FlatStyle = FlatStyle.Flat;
             btnPut.Click += btnPut_Click;
 
             // 
             // btnGet
             // 
-            btnGet.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            btnGet.BackColor = Color.CornflowerBlue;
-            btnGet.ForeColor = Color.White;
+            btnGet.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnGet.BackColor = Color.LightSkyBlue; // Azul claro
+            btnGet.ForeColor = Color.Black;
             btnGet.Location = new Point(270, 150);
-            btnGet.Size = new Size(120, 60);
-            btnGet.Text = "CARREGAR";
+            btnGet.Size = new Size(120, 45);
+            btnGet.Text = "Carregar";
+            btnGet.FlatStyle = FlatStyle.Flat;
             btnGet.Click += btnGet_Click;
 
             // 
             // btnDelete
             // 
-            btnDelete.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            btnDelete.BackColor = Color.Red;
-            btnDelete.ForeColor = Color.White;
+            btnDelete.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnDelete.BackColor = Color.LightCoral; // Coral claro
+            btnDelete.ForeColor = Color.Black;
             btnDelete.Location = new Point(400, 150);
-            btnDelete.Size = new Size(120, 60);
+            btnDelete.Size = new Size(120, 45);
             btnDelete.Text = "Apagar";
+            btnDelete.FlatStyle = FlatStyle.Flat;
             btnDelete.Click += btnDelete_Click;
 
             // 
             // panelResponse
             // 
-            panelResponse.BackColor = Color.FromArgb(45, 45, 48);
+            panelResponse.BackColor = Color.White; // Fundo branco
             panelResponse.Controls.Add(txtResponse);
             panelResponse.Location = new Point(12, 310);
             panelResponse.Name = "panelResponse";
@@ -173,8 +192,8 @@
             txtResponse.Size = new Size(740, 180);
             txtResponse.TabIndex = 9;
             txtResponse.Text = "";
-            txtResponse.BackColor = Color.FromArgb(30, 30, 30);
-            txtResponse.ForeColor = Color.White;
+            txtResponse.BackColor = Color.FromArgb(240, 240, 240); // Fundo claro
+            txtResponse.ForeColor = Color.Black;
             txtResponse.Font = new Font("Segoe UI", 12F);
             txtResponse.ReadOnly = true;
 
@@ -189,7 +208,7 @@
             Controls.Add(lblTitle);
             Name = "Utilizadores";
             Text = "Gestão de Utilizadores";
-            BackColor = Color.FromArgb(30, 30, 30);
+            BackColor = Color.FromArgb(240, 240, 240); // Fundo geral claro
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

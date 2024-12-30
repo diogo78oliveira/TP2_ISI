@@ -12,7 +12,7 @@ namespace GestaoHotelariaAPI.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "gestor")]
+    //[Authorize(Roles = "gestor")]
 
     public class UtilizadoresController : ControllerBase
     {

@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapisoap\\formsgestaohotelariaapisoap\\gestorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\gestorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\formsgestaohotelariaapisoap\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapisoap\\formsgestaohotelariaapisoap\\gestorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\gestorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapisoap\\formsgestaohotelariaapisoap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\formsgestaohotelariaapisoap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapisoap\\formsgestaohotelariaapisoap\\gestorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\formsgestaohotelariaapisoap\\gestorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\gestorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\formsgestaohotelariaapisoap\\gestorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\gestorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapisoap\\formsgestaohotelariaapisoap\\clienteform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\formsgestaohotelariaapisoap\\clienteform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\clienteform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapisoap\\formsgestaohotelariaapisoap\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|c:\\users\\diogo\\documents\\github\\tp2_isi\\formsgestaohotelariaapisoap\\formsgestaohotelariaapisoap\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\formsgestaohotelariaapisoap\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{70C5B65B-3550-400E-BA46-21D8A9F051AB}|FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap.csproj|solutionrelative:formsgestaohotelariaapisoap\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GestorForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap\\GestorForm.Designer.cs",
               "RelativeDocumentMoniker": "FormsGestaoHotelariaAPISoap\\GestorForm.Designer.cs",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GestorForm.cs",
               "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap\\GestorForm.cs",
               "RelativeDocumentMoniker": "FormsGestaoHotelariaAPISoap\\GestorForm.cs",
               "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap\\GestorForm.cs",
               "RelativeToolTip": "FormsGestaoHotelariaAPISoap\\GestorForm.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAmwHgAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T18:49:11.834Z",
               "EditorCaption": ""
@@ -76,8 +76,7 @@
               "RelativeToolTip": "FormsGestaoHotelariaAPISoap\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:39:30.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T18:39:30.446Z"
             },
             {
               "$type": "Document",
@@ -93,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ClienteForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap\\ClienteForm.Designer.cs",
               "RelativeDocumentMoniker": "FormsGestaoHotelariaAPISoap\\ClienteForm.Designer.cs",
@@ -106,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ClienteForm.cs",
               "DocumentMoniker": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap\\ClienteForm.cs",
               "RelativeDocumentMoniker": "FormsGestaoHotelariaAPISoap\\ClienteForm.cs",
               "ToolTip": "C:\\Users\\diogo\\Documents\\GitHub\\TP2_ISI\\FormsGestaoHotelariaAPISoap\\FormsGestaoHotelariaAPISoap\\ClienteForm.cs",
               "RelativeToolTip": "FormsGestaoHotelariaAPISoap\\ClienteForm.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswDAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T17:38:54.289Z",
               "EditorCaption": ""
